@@ -1,7 +1,7 @@
 package com.basil.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import com.basil.table.TbCuisine;
+import com.basil.DAO.CuisineDO;
 import org.springframework.stereotype.Repository;
 
 /**
@@ -10,5 +10,5 @@ import org.springframework.stereotype.Repository;
  * @description 菜肴功能接口
  */
 @Repository
-public interface CuisineMapper extends BaseMapper<TbCuisine> {
+public interface CuisineMapper extends BaseMapper<CuisineDO> {
 }

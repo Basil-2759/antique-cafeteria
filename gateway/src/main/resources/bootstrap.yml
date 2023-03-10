@@ -1,0 +1,17 @@
+spring:
+  cloud:
+    nacos:
+      config:
+        server-addr: www.nacos.com
+        namespace: pro
+        group: DEFAULT_GROUP
+        username: nacos
+        password: nacos
+        prefix: gateway
+        file-extension: yml
+        shared-configs:
+          - common-pro.yml
+
+
+  profiles:
+    active: pro

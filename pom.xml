@@ -11,8 +11,10 @@
     <modules>
         <module>cuisine</module>
         <module>foodstuff</module>
-        <module>order</module>
+        <module>order-history</module>
         <module>entity</module>
+        <module>api</module>
+        <module>gateway</module>
     </modules>
 
     <properties>

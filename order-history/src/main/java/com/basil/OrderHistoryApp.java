@@ -16,9 +16,9 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 @EnableDiscoveryClient
 @EnableFeignClients(basePackages = {"com.basil.api"})
 @MapperScan("com.basil.mapper")
-@RibbonClient(name = "foodstuff")
-public class FoodstuffApp {
+@RibbonClient("order-history")
+public class OrderHistoryApp {
     public static void main(String[] args) {
-        SpringApplication.run(FoodstuffApp.class, args);
+        SpringApplication.run(OrderHistoryApp.class, args);
     }
 }

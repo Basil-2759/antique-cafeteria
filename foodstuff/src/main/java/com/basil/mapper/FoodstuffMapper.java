@@ -1,7 +1,7 @@
 package com.basil.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import com.basil.table.TbFoodstuff;
+import com.basil.DAO.FoodstuffDO;
 import org.springframework.stereotype.Repository;
 
 /**
@@ -10,5 +10,5 @@ import org.springframework.stereotype.Repository;
  * @description com.basil.mapper antique-cafeteria
  */
 @Repository
-public interface FoodstuffMapper extends BaseMapper<TbFoodstuff> {
+public interface FoodstuffMapper extends BaseMapper<FoodstuffDO> {
 }

@@ -1,7 +1,7 @@
 package com.basil.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import com.basil.table.TbRelationship;
+import com.basil.DAO.RelationshipDO;
 import org.springframework.stereotype.Repository;
 
 /**
@@ -10,5 +10,5 @@ import org.springframework.stereotype.Repository;
  * @description com.basil.mapper antique-cafeteria
  */
 @Repository
-public interface RelationshipMapper extends BaseMapper<TbRelationship> {
+public interface RelationshipMapper extends BaseMapper<RelationshipDO> {
 }

@@ -1,0 +1,18 @@
+# 从配置中心加载配置文件
+# 文件名是通过公式来拼接：$/prefix}-${spring.profiles.active} .${file-extension}
+spring:
+  cloud:
+    nacos:
+      config:
+        server-addr: www.nacos.com
+        namespace: pro
+        group: DEFAULT_GROUP
+        username: nacos
+        password: nacos
+        prefix: cuisine
+        file-extension: yml
+        shared-configs:
+          - common-pro.yml
+
+  profiles:
+    active: pro
